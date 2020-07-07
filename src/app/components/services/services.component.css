@@ -1,0 +1,68 @@
+.action-text{
+    text-align: center;
+    color: white;
+    margin: 50px auto;
+}
+.service{
+    height: 270px;
+    background-image: linear-gradient(90deg, #035aa6, #32e0c4);
+}
+.call-action-subtitle{
+    padding-top: 50px;
+    color: #ccc;
+}
+.call-action-image{
+    background-color: tomato;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 30px auto 10px auto;
+    padding: 10px;
+}
+.actions-block{
+    background-color: white;
+    box-shadow: 5px 5px 5px #ccc;  
+    padding-bottom: 90px;
+}
+
+  /* features and services */
+
+.features-title{
+    text-align: center;
+    margin-bottom: 100px;
+} 
+.features-subtitle{
+    color: #bbb;
+    margin-top: 440px;
+}
+.features-header{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Dashboard-features-image , .Userfrendly-experence-image ,
+.Colour-shemes-image , .Different-layouts-image ,
+.Vector-based-image , .Pixel-perfect-image {
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.Dashboard-features-image{
+    background-color: rgba(0,0,255,.2);
+}
+.Userfrendly-experence-image{
+    background-color: rgba(0,0,255,.1);
+}
+.Colour-shemes-image{
+    background-color: rgba(255,0,0,.1);
+}
+.Different-layouts-image{
+    background-color: rgba(128,0,128,.3);
+}
+.Vector-based-image{
+    background-color: hsla(120, 60%, 70%, 0.3);
+}
+.Pixel-perfect-image{
+    background-color: rgba(255, 0, 0, 0.2);
+}

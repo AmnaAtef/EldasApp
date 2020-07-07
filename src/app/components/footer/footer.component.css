@@ -1,0 +1,24 @@
+
+.our-client , hr{
+    margin: 70px auto 100px auto; 
+}
+.footer-link{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    margin: 15px auto;
+}
+
+.footer-link:hover{
+    color: blue;
+}
+.footer-img{
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px 3px#aaa; 
+    padding: 8px;
+    margin-right: 3px;
+}
+.Copyright{
+    margin-top: 20px;
+    color: #555;
+}

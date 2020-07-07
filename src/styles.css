@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+}
+.img-fluid{
+    width:100%;
+}
+button:focus{
+    outline: none;
+}
+

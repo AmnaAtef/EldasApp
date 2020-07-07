@@ -1,0 +1,60 @@
+   <!-- portfolio Section-->
+  <div class="container"> 
+     <div class="portfolio-title">
+        <p class="portfolio-subtitle">CASE STUDIES </p>
+        <h2 class="portfolio-header">Our Portfolio</h2>
+	</div>
+	<div class="buttons">
+	  <div class="row">
+			<div class="col-md-2">
+				<button (click)="filterBy='all'" class="all">ALL</button>
+			</div>
+		    <div class="col-md-2">
+			   <button (click)="filterBy='webdesign'" class="webdesign">WEBDESIGN</button>
+			</div>
+		    <div class="col-md-2">
+		        <button (click)="filterBy='typo'" class="typo">TYPO</button>
+			</div>
+			<div class="col-md-2">
+				<button (click)="filterBy='branding'" class="branding">BRANDING</button>
+			</div>
+		    <div class="col-md-2">
+				<button (click)="filterBy='development'" class="development">DEVELOPMENT</button>
+			</div>
+	  </div>
+	</div>
+	
+	      <div class="row">    
+			<ul>    
+			  <li *ngFor="let img of (allImages | filterimages:filterBy)">    
+				<a [routerLink]="['/img', img.id]">    
+				  <img src="{{img.url}}" class="img" width="22%" height="40%">    
+				</a>    
+			  </li>    
+			</ul>    
+		  </div>
+	  
+	  
+	   <button class="btn load-more">LOAD MORE</button> 
+	</div> 
+ <div class="container"> 
+	<div class="row">
+		 <div class="col-md-6">
+			<p class="subtitle">WHAT WE DO</p>
+			<h2>We Help clients to get more out of bussiness</h2>
+			<p>Duis autem vel aum iriure dolor in hendrart in vulputate velit esse mugiat nuesent lupt te fegit nulla facilisi</p>
+			<button class="btn watch-video-btn">WATCH VIDEO</button>
+		</div>
+		<div class="col-md-6">
+			<video width="100%" controls>
+				<source src="../../../assets/video/mov_bbb.mp4" type="video/mp4">
+				Your browser does not support HTML video.
+			</video>
+		</div>
+
+	</div>
+ </div> 
+    
+
+
+ <app-offer></app-offer> 

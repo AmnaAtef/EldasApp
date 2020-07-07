@@ -1,0 +1,39 @@
+.nav-links{
+    color: black;
+    font-weight: 500;
+    margin: auto 12px auto 12px;
+    padding-top: 50px;
+}
+.nav-links:hover{
+    color: blue;
+}
+.nav-icons{
+    margin: auto 10px auto 10px;
+}
+.nav-icons-en{
+    margin-left: 2px;
+    text-align: center;
+}
+
+.header-text{
+    margin-top: 100px;
+}
+.header-text h1{
+    font-size: 50px;
+}
+.header-button{
+    color: white;
+    background-color: tomato;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px #ddd;
+}
+.header-sec{
+    margin-bottom: 100px;
+}
+.do-text{
+    text-align: right;
+}
+.do-first-paragraph{
+    color: #ccc;
+}
